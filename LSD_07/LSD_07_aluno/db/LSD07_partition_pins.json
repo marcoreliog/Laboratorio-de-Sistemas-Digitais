@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "tot_coins[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tot_coins[1]",
+					"strict" : false
+				},
+				{
+					"name" : "tot_coins[2]",
+					"strict" : false
+				},
+				{
+					"name" : "tot_coins[3]",
+					"strict" : false
+				},
+				{
+					"name" : "tot_coins[4]",
+					"strict" : false
+				},
+				{
+					"name" : "tot_coins[5]",
+					"strict" : false
+				},
+				{
+					"name" : "tot_coins[6]",
+					"strict" : false
+				},
+				{
+					"name" : "tot_coins[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "A[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tot_clr",
+					"strict" : false
+				},
+				{
+					"name" : "tot_ld",
+					"strict" : false
+				},
+				{
+					"name" : "A[1]",
+					"strict" : false
+				},
+				{
+					"name" : "A[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

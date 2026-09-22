@@ -1,0 +1,37 @@
+-- Máquina de Refrigerantes
+-- Laboratório de Sistemas Digitais
+-- Universidade Federal de Minas Gerais
+-- Julho de 2026
+--
+-- Arquivo: total.vhd
+-- Registrador
+
+-- Inclusão de bibliotecas
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.NUMERIC_STD.all;
+
+-- declaração da interface da entity
+entity total is
+	PORT(	clk_sys, ld, clr	: in 	STD_LOGIC;
+			I						: in 	STD_LOGIC_VECTOR(7 downto 0); 
+			Q						: out	STD_LOGIC_VECTOR(7 downto 0)
+	);
+end;
+
+
+architecture bhv of total is
+
+begin
+
+	process(clk_sys, clr)
+	begin
+	
+		if clr = '0' then	Q <= (others => '0');
+		elsif(rising_edge(clk_sys)) then
+			if ld  = '1' then Q <= I;
+			end if;
+		end if;	
+		
+	end process;
+end;
